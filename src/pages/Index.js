@@ -10,6 +10,13 @@ const Column = styled.div`
 	flex-direction: column;
 `
 
+const Mail = styled.a`
+	color: ${theme.primaryColor};
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	font-size: 1.1rem;
+`
+
 const IntroSection = styled.section`
 	max-width: 45rem;
 	position: absolute;
@@ -35,19 +42,18 @@ class Homepage extends Component {
 			<Column>
 				<IntroSection>
 					<H1>
-						Hi. <br /> My name is Tim.
+						We are <br /> Online Creation.
 					</H1>
 					<Paragraph>
-						I am a full-stack <Strong>JavaScript</Strong> developer
-						from <Strong>The Netherlands</Strong>, I study
-						Multimedia and communication design at the{' '}
-						<Strong>
-							University of Applied sciences Amsterdam
-						</Strong>{' '}
-						with deeping in Front-end development . Besides my study
-						I am currently working in <Strong>Amsterdam</Strong> and
-						as a freelancer.
-						<br />
+						We are a full-stack <Strong>web</Strong> developing
+						company from <Strong>The Netherlands</Strong>, We are
+						specialized in building{' '}
+						<Strong>scalable web applications</Strong> <br />
+						The website is still work in progress.
+					</Paragraph>
+					<Paragraph>
+						For questions you can mail{' '}
+						<Mail href="mailto:info@timruiterkamp.nl">us</Mail>.
 					</Paragraph>
 				</IntroSection>
 			</Column>
