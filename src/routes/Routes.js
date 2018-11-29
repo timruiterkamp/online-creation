@@ -13,7 +13,7 @@ export default function Routes(props) {
 			<Route exact path="/" component={IndexPage} />
 			<Route exact path="/about" component={About} />
 			<Route exact path="/projects" component={Projects} />
-			<Route exact path="/skills" component={Skills} />
+			{/* <Route exact path="/skills" component={Skills} /> */}
 			<Route exact path="/contact" component={Contact} />
 			<Route component={NotFound} />
 		</Switch>
